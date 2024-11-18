@@ -1,0 +1,67 @@
+.head1{
+    text-align: center;
+    align-items: center;
+}
+#img1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #FFF0F0;
+}
+.head2{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: start;
+    align-items: center;
+}
+.head22{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+    align-items: center;
+    
+}
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px ;
+    background-color: whitesmoke;
+}
+.head3{
+    text-align: center;
+}
+.head4{
+    text-align: center;
+}
+.head5{
+    text-align: center;
+}
+hr{
+    width: 50%;
+}
+h3{
+    text-decoration: underline;
+}
+.head4 i{
+    width: 50px;
+}
+@media (max-width:576px ) {
+    .head1{
+        text-align: center;
+    }
+ 
+  .head2{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .head22{
+    flex-direction: column;
+  }
+  .box{
+    align-items: center;
+    text-align: center;
+  }
+}
